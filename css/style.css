@@ -35,62 +35,60 @@ main{
     display: none;
 }
 
-.i-top-left{
+.i-card{
     background-size: 100%;
-    background-image: url(../img/1.webp);
     height: 28em;
 }
 
-.c-top-left:hover .i-top-left{
-    background-image: url(../img/1b.webp);
+.i-top-left{background-image: url(../img/1.webp);}
+
+.c-top-left:hover .i-top-left{background-image: url(../img/1b.webp);}
+
+.store{
+    font-size: 0.8em;
+    margin-top: 1em;
 }
 
-.i-top-middle{
-    background-size: 100%;
-    background-image: url(../img/2.webp);
-    height: 28em;
+.product{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
 }
 
-.c-top-middle:hover .i-top-middle{
-    background-image: url(../img/2b.webp);
+.price{
+    font-size: 0.8em;
+    margin-top: 0.1em;
 }
 
-.i-top-right{
-    background-size: 100%;
-    background-image: url(../img/3.webp);
-    height: 28em;
+.lowest-price{
+    color: red;
+    font-weight: bold;
 }
 
-.c-top-right:hover .i-top-right{
-    background-image: url(../img/3b.webp);
+.original-price{
+    text-decoration: line-through;
 }
 
-.i-bottom-left{
-    background-size: 100%;
-    background-image: url(../img/4.webp);
-    height: 28em;
-}
+.i-top-middle{background-image: url(../img/2.webp);}
 
-.c-bottom-left:hover .i-bottom-left{
-    background-image: url(../img/4b.webp);
-}
+.c-top-middle:hover .i-top-middle{background-image: url(../img/2b.webp);}
 
-.i-bottom-middle{
-    background-size: 100%;
-    background-image: url(../img/5.webp);
-    height: 28em;
-}
 
-.c-bottom-middle:hover .i-bottom-middle{
-    background-image: url(../img/5b.webp);
-}
+.i-top-right{background-image: url(../img/3.webp);}
 
-.i-bottom-right{
-    background-size: 100%;
-    background-image: url(../img/6.webp);
-    height: 28em;
-}
+.c-top-right:hover .i-top-right{background-image: url(../img/3b.webp);}
 
-.c-bottom-right:hover .i-bottom-right{
-    background-image: url(../img/6b.webp);
-}
+
+.i-bottom-left{background-image: url(../img/4.webp);}
+
+.c-bottom-left:hover .i-bottom-left{background-image: url(../img/4b.webp);}
+
+
+.i-bottom-middle{background-image: url(../img/5.webp);}
+
+.c-bottom-middle:hover .i-bottom-middle{background-image: url(../img/5b.webp);}
+
+
+.i-bottom-right{background-image: url(../img/6.webp);}
+
+.c-bottom-right:hover .i-bottom-right{background-image: url(../img/6b.webp);}

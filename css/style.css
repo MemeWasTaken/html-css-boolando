@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+main{
+    border: 1px solid red;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.card{
+    border: 1px solid blue;
+    float: left;
+    display: inline-block;
+    width: calc(100%/3 - 20px);
+    height: 550px;
+    margin: 10px;
+}
+
+.card img{
+    display: none;
+}
+
+.i-top-left{
+    background-size: 100%;
+    background-image: url(../img/1.webp);
+    height: 28em;
+}
+
+.c-top-left:hover .i-top-left{
+    background-image: url(../img/1b.webp);
+}
+
+.i-top-middle{
+    background-size: 100%;
+    background-image: url(../img/2.webp);
+    height: 28em;
+}
+
+.c-top-middle:hover .i-top-middle{
+    background-image: url(../img/2b.webp);
+}
+
+.i-top-right{
+    background-size: 100%;
+    background-image: url(../img/3.webp);
+    height: 28em;
+}
+
+.c-top-right:hover .i-top-right{
+    background-image: url(../img/3b.webp);
+}
+
+.i-bottom-left{
+    background-size: 100%;
+    background-image: url(../img/4.webp);
+    height: 28em;
+}
+
+.c-bottom-left:hover .i-bottom-left{
+    background-image: url(../img/4b.webp);
+}
+
+.i-bottom-middle{
+    background-size: 100%;
+    background-image: url(../img/5.webp);
+    height: 28em;
+}
+
+.c-bottom-middle:hover .i-bottom-middle{
+    background-image: url(../img/5b.webp);
+}
+
+.i-bottom-right{
+    background-size: 100%;
+    background-image: url(../img/6.webp);
+    height: 28em;
+}
+
+.c-bottom-right:hover .i-bottom-right{
+    background-image: url(../img/6b.webp);
+}
